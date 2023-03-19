@@ -50,6 +50,7 @@ main {
     font-size: 15px;
 
 }
+
 .bolded-profession{
 font-size: 20px;
 padding: 10px 0px;
@@ -64,17 +65,10 @@ margin-top: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 15px;
-    height: 200px;
+    height: 1000px;
     text-align: center;
     background-color:#ccc;
     border:1px solid #000000;
-}
-#column-1{
-
-}
-
-#column-2{
-
 }
 
 #inside-box1{
@@ -85,5 +79,8 @@ height: 45px;
 }
 
 #inside-box2{
-    
+border-width: 2px;
+border:1px solid #000000;
+padding: 62px;
+height: 45px;
 }
