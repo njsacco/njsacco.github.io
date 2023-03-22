@@ -4,39 +4,89 @@
 <head>
     <title>My Student Portfolio</title>
     <script src="html-templates-loader.js" defer></script>
+    <script src="index.js" defer></script>
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
     <div x-include-html="header.html"></div>
     <main>
-        <p>Hi, my name is Noah! I'm
+
+        <div class="introduction">
+            <p>Hi, my name is Noah! I'm </p>
             <br>
-        <div class="bolded-profession">a software developer</div>
-        <br>
-        who is passionate for [insert relevant skills or
-        industry]. Ready to make an impact!
-        </p>
-        <h1>Projects</h1>
-        <div id="main-page-column">
-            <a href="https://www.amazon.com">
-                <img src="../images/SpaceCowboy.png" alt=[insertProjectNameHere]  width="250"
-                    height="250" border="6">
-            </a>
-            <a href="https://www.amazon.com">
-                <img src="../images/SpaceCowboy.png" alt=[insertProjectNameHere]  width="250"
-                    height="250" border="6">
-            </a>
-            <a href="https://www.amazon.com">
-                <img src="../images/SpaceCowboy.png" alt=[insertProjectNameHere]  width="250"
-                    height="250" border="6">
-            </a>
-            <a href="https://www.amazon.com">
-                <img src="../images/SpaceCowboy.png" alt=[insertProjectNameHere]  width="250"
-                    height="250" border="6">
-            </a>
+            <div class="bolded-profession">a software developer</div>
+            <br>
+            <p>who is passionate for [Automation, ]. Ready to make an impact!</p>
         </div>
-        
+
+        <div class="aboutMe">
+            <h3>A little about me</h3>
+            <p>
+                Hi there!
+                <br><br>
+                I've developed a strong understanding of popular programming languages like Python, HTML, CSS, JS, and more through various projects in my career.                <br>
+                In my free time, I enjoy gardening, working on side projects and gaming. I am a hard worker, and I bring this
+                unique perspective to everything I do.
+                <br>
+                If you have any questions or would like to discuss a
+                potential project, please don't hesitate to contact me. 
+                <br>
+                Feel free to explore other tabs to find more of what I have to offer!
+                <br><br>
+                Best regards,
+                <br>
+                Noah
+            </p>
+        </div>
+
+        <h1>A Couple of My Projects</h1>
+
+        <div class="project-container">
+            <div class="project-card">
+                <img src="../images/NoahsMemoryMaze.gif" alt="Project 1">
+                <h2>Memory Game</h2>
+                <p>A brief description of Project 1.</p>
+                <a href="project1.html">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="../images/SpaceCowboy.png" alt="Project 2">
+                <h2>Project 2</h2>
+                <p>A brief description of Project 2.</p>
+                <a href="project2.html">View Project</a>
+            </div>
+        <!-- </div> -->
+
+        <!-- <div class="project-container"> -->
+            <div class="project-card">
+                <img src="../images/SpaceCowboy.png" alt="Project 3">
+                <h2>Project 3</h2>
+                <p>A brief description of Project 3.</p>
+                <a href="project3.html">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="../images/SpaceCowboy.png" alt="Project 3">
+                <h2>Project 3</h2>
+                <p>A brief description of Project 3.</p>
+                <a href="project5.html">View Project</a>
+            </div>
+        </div>
+
+        <div class="project-container">
+            <div class="project-card">
+                <img src="../images/SpaceCowboy.png" alt="Project 3">
+                <h2>Project 3</h2>
+                <p>A brief description of Project 3.</p>
+                <a href="project3.html">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="../images/SpaceCowboy.png" alt="Project 3">
+                <h2>Project 3</h2>
+                <p>A brief description of Project 3.</p>
+                <a href="project5.html">View Project</a>
+            </div>
+        </div>
+
     </main>
     <!-- <footer>
         <p>Copyright © 2022 MyName</p>

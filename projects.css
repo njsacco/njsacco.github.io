@@ -24,44 +24,19 @@ header {
     margin: 10px;
     text-decoration: none;
     color: grey;
+    
 }
 
 body{
     margin: 0px;
+
 }
 main {
     padding: 50px;
     margin: 0px;
     font-size: 15px;
-}
-
-.introduction{
-    text-align: left;
-    padding: 0px;
-    margin: 0px;
-    margin-bottom: 50px;
-}
-
-.aboutMe{
-    text-align: left;
-}
-.aboutMe p{
 
 }
-
-p {
-    margin: auto;
-}
-
-.bolded-profession{
-font-size: 20px;
-}
-
-h1{
-text-align: center;
-margin-top: 100px;
-}
-
 /* Project card formatting */
 .project-container {
     display: flex;
