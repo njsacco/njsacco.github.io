@@ -3,13 +3,15 @@ html{
 }
 /* Style the header */
 #NavBarHeader {
-    padding: 10px;
+    padding: 20px;
     background: rgb(243, 227, 194);
-    color: grey;
+    color: rgb(0, 0, 0);
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     position: sticky;
+    font-size: 20px;    
+
 }
 header {
     position: sticky;
@@ -23,7 +25,7 @@ header {
     text-align: center;
     margin: 10px;
     text-decoration: none;
-    color: grey;
+    color: rgb(0, 0, 0);
 }
 
 body{
