@@ -28,6 +28,8 @@ header {
     color: rgb(0, 0, 0);
 }
 
+
+
 body{
     margin: 0px;
 }
@@ -37,12 +39,37 @@ main {
     font-size: 15px;
 }
 
+/* INTRODUCTION STUFF */
+.introduction-container{
+   overflow: hidden;
+   display: flex;
+   flex-wrap: wrap;
+}
 .introduction{
     text-align: left;
     padding: 0px;
     margin: 0px;
     margin-bottom: 50px;
+    margin-right: 0px;
 }
+
+/* SPINNER FORMATTING */
+.spinner {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background: linear-gradient(90deg, rgba(255,0,0,0) 0%, rgba(255,0,0,1) 33%, rgba(255,255,0,1) 66%, rgba(255,255,0,0) 100%);
+  opacity: 0.3;
+  animation: spin 30s linear infinite;
+  
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 
 .aboutMe{
     text-align: left;
@@ -63,6 +90,8 @@ h1{
 text-align: center;
 margin-top: 100px;
 }
+
+
 
 /* Project card formatting */
 .project-container {
@@ -104,3 +133,6 @@ margin-top: 100px;
   .project-card a:hover {
     background-color: #555;
   }
+
+ 
+  
