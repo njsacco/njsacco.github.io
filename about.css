@@ -1,43 +1,49 @@
-html{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-/* Style the header */
-#NavBarHeader {
+html {
+    font-family: 'Courier New', Courier, monospace, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+  }
+  
+  /* Style the header */
+  #NavBarHeader {
     padding: 20px;
-    background: rgb(243, 227, 194);
-    color: rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     position: sticky;
-    font-size: 20px;    
-
-}
-header {
+    font-size: 20px;
+    box-shadow: 0px 10px 15px rgba(255, 255, 255, 0.2);
+  }
+  
+  header {
     position: sticky;
-}
-
-#NavBar {
+  }
+  
+  #NavBar {
     text-align: right;
-}
-
-#NavBar a {
+  }
+  
+  #NavBar a {
     text-align: center;
     margin: 10px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-
-body{
+    color: rgb(255, 255, 255);
+  }
+  
+  
+  
+  body {
     margin: 0px;
-
-}
-main {
+  }
+  
+  main {
     padding: 50px;
     margin: 0px;
     font-size: 15px;
-
-}
+    background-color: black;
+    color: white;
+  }
 .about-container {
     display: flex;
     padding: 20px;
