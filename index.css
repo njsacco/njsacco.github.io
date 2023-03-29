@@ -61,7 +61,7 @@ main {
   margin-right: 0px;
 }
 
-/* SPINNER FORMATTING */
+/* SPINNER FORMATTING
 .spinner {
   width: 150px;
   height: 150px;
@@ -76,7 +76,7 @@ main {
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 
 .aboutMe {

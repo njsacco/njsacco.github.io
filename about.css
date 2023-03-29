@@ -59,6 +59,8 @@ html {
     margin-right: 20px;
     width: 500px;
     height: auto;
+    border-color: black;
+    border-radius: 20%;
   }
   
   
@@ -68,7 +70,5 @@ html {
     margin-right: 700px;
   }
 
-  li{
-  }
 
  
