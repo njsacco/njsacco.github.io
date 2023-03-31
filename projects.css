@@ -33,7 +33,6 @@ header {
 }
 
 
-
 body {
   margin: 0px;
 }
@@ -48,7 +47,11 @@ main {
 
 h1 {
   text-align: center;
+  color:#00ff00;
 }
+
+
+
 
 /* Project card formatting */
 .project-container {
@@ -71,6 +74,7 @@ h1 {
 
 .project-card h2 {
   margin: 10px;
+  color:#00ff00;
 }
 
 .project-card p {
@@ -89,4 +93,38 @@ h1 {
 
 .project-card a:hover {
   background-color: #555;
+}
+
+/* FOOTER */
+footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  background-color: black;
+}
+footer a{
+  text-decoration:none;
+  color: #ffffff;
+}
+
+footer i::before{
+  padding-right: 6px;
+  padding-left: 50px;
+}
+
+
+/* MATRIX FORMATTING */
+canvas {
+  display: block;
+  height: 100px;
+  width: 100%;
+}
+
+
+/* MATRIX FORMATTING */
+canvas {
+  display: block;
+  height: 100px;
+  width: 100%;
+  
 }

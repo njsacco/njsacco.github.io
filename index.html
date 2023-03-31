@@ -5,12 +5,17 @@
     <title>My Student Portfolio</title>
     <script src="html-templates-loader.js" defer></script>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 
 <body>
     <div x-include-html="header.html"></div>
+
+<!-- MATRIX ANIMATION -->
     <canvas id="c"></canvas>
     <script src="matrix.js"></script>
+
     <main>
         <div class="introduction-container">
             <div class="introduction">
@@ -78,17 +83,7 @@
 
     </main>
     <footer>
-        <nav>
-            <ul>
-                <li><a href="https://github.com/njsacco" target="_blank">
-                        <img src="../images/Github-logo.png" alt="GitHub Logo" style="height: 20px;"> GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/noah-sacco/" target="_blank">
-                        <img src="../images/linkedin-logo.png" style="height: 20px; border-radius: 15%;"
-                            alt="LinkedIn Logo"> LinkedIn</a></li>
-                <a href="../images/Resume.pdf" target="_blank">
-                    <img src="../images/resume-logo.png" style="height: 20px;" alt="Resume Logo"> Resume</a></li>
-            </ul>
-        </nav>
+            <div x-include-html="footer.html"></div>
     </footer>
 
 </body>

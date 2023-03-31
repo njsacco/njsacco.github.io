@@ -1,12 +1,15 @@
 var c = document.getElementById("c");
 var ctx = c.getContext("2d");
 
+
+
 //making the canvas full screen
 c.height = window.innerHeight;
 c.width = window.innerWidth;
 
 //english characters
 var english = "1001010101110101010101010010101000101011101111010101010110101010101010101110000101";
+
 //converting the string into an array of single characters
 english = english.split("");
 

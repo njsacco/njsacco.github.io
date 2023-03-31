@@ -5,10 +5,17 @@
     <title>My Student Portfolio</title>
     <script src="html-templates-loader.js" defer></script>
     <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 
 <body>
     <div x-include-html="header.html"></div>
+    
+    <!-- MATRIX ANIMATION -->
+    <canvas id="c"></canvas>
+    <script src="matrix.js"></script>
+
     <main>
         <section id="about-me">
             <h1>About Me</h1>
@@ -19,10 +26,12 @@
                 <div class="about-text">
                     <p>Hi there! My name is Noah, and I'm a IT professional with a specialization in programming. I'm
                         passionate about automation and gardening and I love using my skills to create automated systems
-                         that can be used in any gardening capacity.</p>
+                        that can be used in any gardening capacity.</p>
 
-                    <p>My journey into programming and IT began when I was young and discovered my fascination with technology through playing games on my grandparents' computer. Since then,
-                        I've solved and created web pages, applications, bugs and a working database for patient info for a business, [list some of your experiences and accomplishments that are relevant to your
+                    <p>My journey into programming and IT began when I was young and discovered my fascination with
+                        technology through playing games on my grandparents' computer. Since then,
+                        I've solved and created web pages, applications, bugs and a working database for patient info
+                        for a business, [list some of your experiences and accomplishments that are relevant to your
                         profession/field]. For example:</p>
 
                     <ul>
@@ -32,7 +41,8 @@
                         <li>experience/accomplishment 4</li>
                     </ul>
 
-                    <p>These experiences have taught me how to problem solve in fast environments [what you've learned from your experiences], and have helped me
+                    <p>These experiences have taught me how to problem solve in fast environments [what you've learned
+                        from your experiences], and have helped me
                         develop [what skills or qualities you've developed].</p>
 
                     <p>When I'm not doing school work and , you can usually find me [what you like to do
@@ -52,6 +62,10 @@
             </div>
         </section>
     </main>
+    <footer>
+        <div x-include-html="footer.html"></div>
+    </footer>
+
 </body>
 
 

@@ -5,43 +5,53 @@
 	<title>My Student Portfolio</title>
 	<script src="html-templates-loader.js" defer></script>
 	<link rel="stylesheet" href="submission.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 	<style>
 		/* Create an animation for the image */
 		@keyframes rotate {
-		  from {
-			transform: rotate(0deg);
-		  }
-		  to {
-			transform: rotate(360deg);
-		  }
-		}
-  
-		/* Apply the animation to the image */
-		#CatSpin {
-		  animation: rotate 30s linear infinite;
-		  height: 300px;
-		  width: auto;
-		  margin-left: 800px;
+			from {
+				transform: rotate(0deg);
+			}
+
+			to {
+				transform: rotate(360deg);
+			}
 		}
 
-		img{
+		/* Apply the animation to the image */
+		#CatSpin {
+			animation: rotate 30s linear infinite;
+			height: 300px;
+			width: auto;
+			margin-left: 800px;
+		}
+
+		img {
 			height: 300px;
 		}
-	  </style>
+	</style>
 </head>
 
 <body>
 	<div x-include-html="header.html"></div>
+	<!-- MATRIX ANIMATION -->
+	<canvas id="c"></canvas>
+	<script src="matrix.js"></script>
+
 	<main>
 		<h1>Thank you for your message!</h1>
-    <p>We have received your submission and will get back to you as soon as possible.</p>
-	<div>    
-		<img id="CatSpin" src="../images/CatSpin.jfif" alt="Rotating cat">
-	</div>
-	<img src="../images/CatJam.gif" alt="Rotating cat">
+		<p>We have received your submission and will get back to you as soon as possible.</p>
+		<div>
+			<img id="CatSpin" src="../images/CatSpin.jfif" alt="Rotating cat">
+		</div>
+			<img src="../images/CatJam.gif" alt="Rotating cat">
 
 
 	</main>
+	<footer>
+		<div x-include-html="footer.html"></div>
+	</footer>
 
 </body>
 

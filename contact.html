@@ -5,23 +5,37 @@
   <title>My Student Portfolio</title>
   <script src="html-templates-loader.js" defer></script>
   <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
-  <script type="text/javascript">var submitted=false</script>
-  <iframe name="hiddenConfirm" id="hiddenConfirm" style="display: none;" onload="if(submitted){window.location='submission.html';}"></iframe>
+  <!-- GOOGLE FORM STUFF DONT MESS WITH IT -->
+  <script type="text/javascript">var submitted = false</script>
+  <iframe name="hiddenConfirm" id="hiddenConfirm" style="display: none;"
+    onload="if(submitted){window.location='submission.html';}"></iframe>
+
+  // HEADER
   <div x-include-html="header.html"></div>
+
+  // <!-- MATRIX ANIMATION -->
+  <canvas id="c"></canvas>
+  <script src="matrix.js"></script>
+
   <main>
-    <form method="POST" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdwrwTnPT2-gp8AfPwEN0HdamdSbcIJGdzBWJY1ishCjklThw/formResponse" 
-    target="hiddenConfirm" onsubmit="submitted=true">
+    <form method="POST"
+      action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdwrwTnPT2-gp8AfPwEN0HdamdSbcIJGdzBWJY1ishCjklThw/formResponse"
+      target="hiddenConfirm" onsubmit="submitted=true">
       <h1>Contact Me</h1>
       <input name="entry.2005620554" placeholder="Name"><br>
       <input name="entry.1045781291" placeholder="Email"><br>
-      <textarea rows =5 name="entry.839337160" placeholder="Message"></textarea><br>
-      <input type="submit" value="Submit">    
+      <textarea rows=5 name="entry.839337160" placeholder="Message"></textarea><br>
+      <input type="submit" value="Submit">
     </form>
   </main>
-  
+  <footer>
+    <div x-include-html="footer.html"></div>
+  </footer>
+
 </body>
 
 </html>
