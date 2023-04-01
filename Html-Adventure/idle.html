@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>My Idle Clicker Game</title>
+  <script src="idle.js" defer></script>
+
+  <style>
+    /* add CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    h1 {
+      color: #f00;
+    }
+
+    button {
+      background-color: #00f;
+      color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    #pointsDisplay {
+      font-size: 24px;
+      font-weight: bold;
+      color: #00f;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Welcome to My Idle Clicker Game!</h1>
+  <p>Click the button below to earn points:</p>
+  <button id="clickButton">Click Me!</button>
+  <p>You have earned <span id="pointsDisplay">0</span> points.</p>
+  <p>You can spend your points on the following upgrades:</p>
+  <div id="upgradesList">
+    <button id="upgrade1Button" onclick="upgrade1()">Upgrade 1 (10 points)</button>
+    <button id="upgrade2Button" onclick="upgrade2()">Upgrade 2 (100 points)</button>
+    <button id="upgrade3Button" onclick="upgrade3()">Upgrade 3 (1000 points)</button>
+    <button id="passiveUpgrade1Button" onclick="buyPassiveUpgrade1()">Passive Upgrade 1 (50 points)</button>
+    <button id="passiveUpgrade2Button" onclick="buyPassiveUpgrade2()">Passive Upgrade 2 (200 points)</button>
+
+  </div>
+  <script>
+      // add JavaScript code here
+  </script>
+</body>
+
+</html>
